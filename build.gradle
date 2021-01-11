@@ -1,6 +1,7 @@
 plugins {
     id 'ear'
     id 'java'
+    id 'war'
 }
 
 group 'org.example'
@@ -18,6 +19,8 @@ dependencies {
     // The following dependencies will become ear libs and will
     // be placed in a dir configured via the libDirName property
     // earlib group: 'log4j', name: 'log4j'
+
+    providedCompile group: 'javax', name: 'javaee-api', version: '8.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }

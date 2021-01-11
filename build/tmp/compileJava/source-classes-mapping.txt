@@ -1,0 +1,4 @@
+com/alexrobles/rest/HealthCheck.java
+ com.alexrobles.rest.HealthCheck
+com/alexrobles/rest/JAXRSConfig.java
+ com.alexrobles.rest.JAXRSConfig
